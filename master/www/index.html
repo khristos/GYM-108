@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <title>Apple Cinnamon Energy Bars</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/lib/jquery/dist/jquery.min.js"></script>
+        <script src="js/index.js"></script>
+    </head> 
+    <body> 
+        <div class="container">
+            <header>
+              <a href="./"><h1>Apple Cinnamon Energy Bars</h1></a>
+            </header>
+            <div class="content">
+              <div class="imageContainer floatLeft">
+                <img src="images/energy-bars.jpg" />
+                <!--
+                <span class="circle changeSize increase">+</span>
+                <span class="circle changeSize decrease">-</span>
+                <span class="hideImageMessage">Double-click this image to hide it.</span>
+                -->
+              </div>
+              <section>
+                <p class="description">These all-natural energy bars are made with the finest ingredients. Starting with a base of fresh <a href="https://www.google.com/search?q=macintosh+apple" data-info="McIntosh is the national apple of Canada" target="_blank">McIntosh apples</a>, we layer-in just the right amount of fruits and nuts. Using <a href="https://www.google.com/search?q=honey" data-info="there are more than 300 different varieties of honey" target="_blank">honey</a> instead of sugar and omitting chocolate, we leverage all-natural sweeteners. These bars are not-only an excellent source of protein, but <a href="https://www.google.com/search?q=omega-3+fatty+acids" data-info="Omega-3 fatty acids are important for normal metabolism" target="_blank">Omega-3 fatty acids</a> (also found in green vitamins and fish). The ingredients are simple, and the preparation steps couldn’t be easier. Once you have finished, you’ll have a delicious way to start your day!</p>
+              </section>
+              <span id="restoreImage" title="Restore the main recipe image">Restore Image</span>
+              <div id="showInfoHyperlinks">Show info for hyperlinks</div>
+              <div id="hideInfoHyperlinks">Hide info for hyperlinks</div>
+              <hr class="top">
+              <div class="tasksContainer">
+                <h2>Tasks</h2>
+              <div id="resetTasks" title="Re-set ingredients and preparation"><p>Reset Tasks</p></div>
+                <section class="tasks left">
+                  <h3>
+                      Ingredients
+                  </h3>
+                  <div>
+                      <ul class="tasks ingredients">
+                        <li>1 McIntosh apple</li>
+                        <li>1 cup dates</li>
+                        <li>3 cups oats</li>
+                        <li>1/3 cup almonds</li>
+                        <li>1 tablespoon cinnamon</li>
+                      </ul>
+                  </div>
+                </section>
+                <section  class="tasks right">
+                  <h3>
+                      Preparation
+                  </h3>
+                  <div>
+                      <ul class="tasks preparation">
+                        <li>Crush apples, dates and oats</li>
+                        <li>Mix crushed ingredients </li>
+                        <li>Bake at 350 degrees for 25 minutes</li>
+                        <li>Let cool for 15 minutes</li>
+                        <li>Slice bars when room temperature</li>
+                      </ul>
+                  </div>
+                </section>
+              </div>
+              <hr class="bottom">
+              <section>
+                <div class="commentsFormContainer">
+                  <h3>
+                      Comments
+                  </h3>
+                  <form id="feedbackForm">
+                    <fieldset>
+                      <legend>Tell us how you liked this recipe!</legend>
+                      <div><input type="text" id="name" name="name" placeholder="Your name"></div>
+                      <div>
+                        <textarea name="comments" id="comments" placeholder="Your comments"></textarea>
+                      </div>
+                      <button type="submit">Submit</button>
+                      <div id="ajaxSpinner"><img src="images/ajax-loader.gif"></div>
+                    </fieldset>
+                  </form>
+                </div>
+              </section>
+            </div>
+        </div>
+    </body> 
+</html>
